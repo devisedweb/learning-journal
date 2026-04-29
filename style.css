@@ -11,7 +11,8 @@ body {
 /* TYPOGRAPHY */
 
 .logo p,
-h1 {
+h1,
+.footer-text-1 {
   line-height: 108.2%;
   letter-spacing: -3%;
 }
@@ -40,7 +41,11 @@ nav li {
 
 .hero date,
 h1,
-.hero p {
+.hero p,
+h2,
+.article p,
+.vm,
+.footer-text p {
   margin: 0;
 }
 
@@ -64,6 +69,62 @@ h1 {
   font-size: 1rem;
 }
 
+.article date {
+  font-size: 0.886rem;
+  font-weight: 400;
+  margin-bottom: 0.563rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 108.2%;
+  margin-bottom: 0.563rem;
+}
+
+.article p {
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 125%;
+}
+
+.vm {
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 2.688rem;
+}
+
+footer {
+  background-color: #202020;
+  color: #fff;
+  padding: 2.313rem 9.5rem;
+  text-align: center;
+}
+
+.footer-text p {
+  font-size: 0.75rem;
+}
+
+.footer-text-1 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.footer-text-2 {
+  font-weight: 300;
+  line-height: 125%;
+}
+
+/* IMAGES */
+
+.article img {
+  width: 100%;
+  margin-bottom: 0.875rem;
+  border-radius: 0.188rem;
+}
+
 /* LAYOUT */
 
 header,
@@ -83,5 +144,12 @@ header {
 }
 
 nav ul {
-  gap: 2rem;
+  gap: 1rem;
+}
+
+.article-listing {
+  display: flex;
+  flex-direction: column;
+  gap: 2.563rem;
+  padding: 2.125rem 1.25rem 1.688rem 1.25rem;
 }
