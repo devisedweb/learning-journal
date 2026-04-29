@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+/* TYPOGRAPHY */
+
+.logo p {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.847rem;
+  font-weight: 900;
+  line-height: 108.2%;
+  letter-spacing: -3%;
+}
+
+nav li {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+/* LAYOUT */
+
+header,
+.logo,
+nav ul {
+  display: flex;
+}
+
+header {
+  justify-content: space-between;
+  padding: 1.063rem 1.25rem;
+}
+
+.logo {
+  align-items: center;
+  gap: 0.313rem;
+}
+
+nav ul {
+  gap: 2rem;
+}
