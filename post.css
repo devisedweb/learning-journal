@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+/* TYPOGRAPHY */
+
+.logo p {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.847rem;
+  font-weight: 900;
+  line-height: 108.2%;
+  letter-spacing: -3%;
+}
+
+nav li {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+article date,
+h1,
+article p,
+.recent-posts > h2 {
+  margin: 0;
+}
+
+article date,
+article p {
+  font-weight: 300;
+}
+
+article date {
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+article p,
+h2 {
+  font-size: 1rem;
+}
+
+article p {
+  margin-bottom: 1rem;
+}
+
+.recent-posts > h2 {
+  text-align: center;
+}
+
+date {
+  font-size: 0.886rem;
+  font-weight: 400;
+  margin-bottom: 0.563rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 108.2%;
+  margin-bottom: 0.563rem;
+}
+
+.article p {
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 125%;
+}
+
+.recent-posts > h2 {
+  margin-bottom: 1.688rem;
+}
+
+footer {
+  background-color: #202020;
+  color: #fff;
+  padding: 2.313rem 8rem;
+  text-align: center;
+}
+
+.footer-text p {
+  font-size: 0.75rem;
+}
+
+.footer-text-1 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.footer-text-2 {
+  font-weight: 300;
+  line-height: 125%;
+}
+
+/* IMAGES */
+
+.article-image {
+  width: 100%;
+  margin-top: 2.188rem;
+  margin-bottom: 2.188rem;
+  border-radius: 0.188rem;
+}
+
+.article img {
+  width: 100%;
+  margin-bottom: 0.875rem;
+  border-radius: 0.188rem;
+}
+
+/* LAYOUT */
+
+header,
+.logo,
+nav ul {
+  display: flex;
+}
+
+header {
+  justify-content: space-between;
+  padding: 1.063rem 1.25rem;
+}
+
+.logo {
+  align-items: center;
+  gap: 0.313rem;
+}
+
+nav ul {
+  gap: 1rem;
+}
+
+article {
+  padding: 2rem 1.25rem 3.188rem 1.25rem;
+}
+
+.recent-posts {
+  padding: 0 1.25rem 1.688rem 1.25rem;
+}
+
+.article-listing {
+  display: flex;
+  flex-direction: column;
+  gap: 2.563rem;
+}
