@@ -30,6 +30,11 @@ nav li {
   list-style: none;
 }
 
+nav li a {
+  text-decoration: none;
+  color: #090909;
+}
+
 .hero {
   background-image: url(./images/article-image.jpg);
   background-repeat: no-repeat;
@@ -84,7 +89,7 @@ h2 {
 
 .article p {
   font-size: 0.95rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 125%;
 }
 
@@ -152,4 +157,46 @@ nav ul {
   flex-direction: column;
   gap: 2.563rem;
   padding: 2.125rem 1.25rem 1.688rem 1.25rem;
+}
+
+@media (min-width: 1085px) {
+  /* TYPOGRAPHY */
+
+  .hero {
+    padding: 17.938rem 23.438rem 3.75rem 3.313rem;
+    height: 488px;
+  }
+
+  .hero date {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+
+  /* LAYOUT */
+
+  header,
+  main,
+  footer {
+    max-width: 1085px;
+    margin: 0 auto;
+  }
+
+  .article-listing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.625rem;
+    row-gap: 2.875rem;
+    padding: 3.313rem 3.313rem 3.188rem 3.313rem;
+  }
+
+  .article {
+    width: 19.313rem;
+  }
 }
