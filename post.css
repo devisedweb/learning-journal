@@ -57,10 +57,6 @@ article p {
   margin-bottom: 1rem;
 }
 
-.recent-posts > h2 {
-  text-align: center;
-}
-
 date {
   font-size: 0.886rem;
   font-weight: 400;
@@ -81,6 +77,7 @@ h2 {
 }
 
 .recent-posts > h2 {
+  text-align: center;
   margin-bottom: 1.688rem;
 }
 
