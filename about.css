@@ -36,7 +36,9 @@ nav li a {
 
 h1,
 article p,
-.recent-posts > h2 {
+.recent-posts > h2,
+.article h2,
+.article p {
   margin: 0;
 }
 
@@ -76,9 +78,14 @@ h2 {
   margin-bottom: 0.563rem;
 }
 
+.article h2 {
+  margin-top: 0.875rem;
+  margin-bottom: 0.563rem;
+}
+
 .article p {
   font-size: 0.95rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 125%;
 }
 
@@ -154,4 +161,50 @@ article {
   display: flex;
   flex-direction: column;
   gap: 2.563rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1085px) {
+  /* TYPOGRAPHY */
+
+  article date {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  article p {
+    font-size: 1.1rem;
+  }
+
+  /* IMAGES */
+
+  .pfp-img {
+    float: left;
+    padding-right: 2.063rem;
+  }
+
+  /* LAYOUT */
+
+  header,
+  main,
+  footer {
+    max-width: 1085px;
+    margin: 0 auto;
+  }
+
+  .article-listing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: unset;
+    padding: unset;
+  }
+
+  .article {
+    width: 19.313rem;
+  }
 }
