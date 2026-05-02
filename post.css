@@ -191,6 +191,7 @@ article {
     max-width: 1085px;
     margin: 0 auto;
   }
+
   .article-listing {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
